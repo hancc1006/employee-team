@@ -90,7 +90,7 @@ function teamMembers(){
                     type:"input",
                     message:"Enter school: ",
                     name:"school"
-                }).then(function(school){
+                }).then(function({school}){
                     Intern(name,id,email,school);
                     addPerson();
                 })
